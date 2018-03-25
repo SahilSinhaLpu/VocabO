@@ -1,0 +1,32 @@
+<app-nav-bar></app-nav-bar>
+<div class="ui stacked segment container" id="bd">
+	<div class="ui internally celled grid">
+		<div class="row">
+			<div class="five wide column">
+				<div class="ui top attached label">WorkSpace</div>
+				<div class="ui fluid action input">
+					<input type="text" placeholder="Search a word">
+					<button class="ui button">Search</button>
+				</div>
+				<hr>
+				<div class="ui divided items">
+					<div class="item" *ngFor="let name of Array">
+						<p>{{ name }}</p>
+					</div>
+				</div>
+			</div>
+			<div class="eight wide column">
+				<div class="ui top attached label">Results</div>
+				<div class="ui raised segment container" id="wordResult"><p>Holla</p></div>
+			</div>
+			<div class="three wide column">
+				<div class="ui top attached label">Quick Link</div>
+				<div class="ui fluid vertical menu">
+					<a class="item">Home</a>
+					<a class="item">Holy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<app-footer></app-footer>

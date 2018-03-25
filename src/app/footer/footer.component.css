@@ -1,0 +1,22 @@
+#footer{
+	background: black;
+	color: white;
+}
+
+#links{
+	text-decoration: none;
+	color: white;
+}
+
+#final{
+	text-align: center;
+}
+
+#name{
+	text-align: center;
+	font-size: 16px;
+}
+
+#name2{
+	text-align: center;
+}

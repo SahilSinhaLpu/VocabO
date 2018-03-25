@@ -1,0 +1,17 @@
+#NavBar{
+	height: 8%;
+	background: #1e404e;
+	color: white;
+	box-shadow: 5px 5px 2px #1e404e;
+}
+
+#logo{
+	color: white;
+	font-size: 22px;
+	font-family: Matura MT Script Capitals;
+}
+
+#navBarBtn{
+	color: white;
+	font-size: 14px;
+}

@@ -1,0 +1,81 @@
+#home{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(83deg, #004D40, #009688)
+}
+#header{
+	font-family: Matura MT Script Capitals;
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 0px white;
+	margin-top:5%;
+}
+
+#desc{
+	font-size: 22px;
+	color: white;
+	text-align: center;
+}
+
+#intro{
+	font-size: 32px;
+	color: white;
+	text-align: center;
+}
+
+#start_btn{
+	height: 8%;
+	width: 30%;
+	margin-left: 35%;
+	font-size: 20px;
+}
+
+#home{
+	margin-top: 0%;
+}
+
+#footer{
+	background: black;
+	color: white;
+}
+
+#links{
+	text-decoration: none;
+	color: white;
+}
+
+
+#name{
+	text-align: center;
+	font-size: 16px;
+}
+
+#name2{
+	text-align: center;
+}
+
+#final{
+	text-align: center;
+}
+
+@media (max-width: 500px){
+	#header{
+		font-size: 36px;
+	}
+
+	#intro{
+		font-size: 24px;
+	}
+
+	#start_btn{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 800px){
+	#start_btn{
+		font-size: 16px;
+	}
+}
+
